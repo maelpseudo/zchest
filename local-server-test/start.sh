@@ -1,3 +1,3 @@
 #!/bin/sh
-cd "$(dirname "$0")"
-exec java -Xms1G -Xmx1G -jar spigot-1.20.4.jar
+
+java -Xms#G -Xmx#G -XX:+UseG1GC -jar spigot.jar nogui
